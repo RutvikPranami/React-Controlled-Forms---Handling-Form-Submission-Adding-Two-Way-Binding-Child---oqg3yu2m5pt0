@@ -1,5 +1,5 @@
 import './styles/App.css';
-import React from 'react';
+import React , {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   const [text , setText] = useState('')
